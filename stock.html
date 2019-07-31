@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Registro de prod</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="http://127.0.0.1/PRUEBA DE INTEGR/bootstrap-3.3.7-dist/css/bootstrap.css">
+     <script src="js/jquery-3.2.1.js"></script>
+  <script src="http://127.0.0.1/PRUEBA DE INTEGR/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link href="http://cdn.materialdesignicons.com/3.7.95/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <link rel="stylesheet" href="http://127.0.0.1/PRUEBA DE INTEGR/css/css/estilos.css">
+          <link rel="stylesheet" type="text/css" href="http://127.0.0.1/PRUEBA DE INTEGR/css/master22.css">
+
+
+
+</head>
+<body bgcolor="#C7C7C7">
+
+  
+  
+      <center><h4 style="color: black;"> REFACCIONARIA PONCE</h4></center><!-- -->
+  
+  <nav class="navbar navbar-inverse" style="color: #E84C3D">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+
+
+
+
+  <a class="navbar-brand" href="index.php" title="Ponce Motors"><i class="material-icons">home</i></a>    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+            <li><a href="paneladmin.php" title="Panel"><i class="material-icons">web</i></a></li>
+
+        <li><a href="#" title="Stock"><i class="material-icons">assignment_turned_in</i></a></li>
+
+
+       </ul>
+      
+
+      <ul class="nav navbar-nav navbar-right">
+
+ 
+        <li><a href="desconectar.php" title="Logout"><i class="material-icons">exit_to_app</i></a></li>
+       </ul>
+
+
+      </ul>
+            
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+   
+  
+<div class="login-box1">
+    <!--<img clase:"avatar" src="img/perfil.png">-->
+    <h1> Registro de Productos</h1>
+
+    <form class="prueba" action="stock.php" method="post">
+       
+      <input type="hidden" name="id" placeholder="ID del Producto"> 
+
+      <input type="text" name="nombre" placeholder="Nombre del Producto" required> 
+      <br><br>
+
+    <select name="categoria" id="categoria" required   style="color: black;">
+            <br><br>
+
+      
+      <option value="" disabled selected>Categoría</option>
+      <option  style="color: black;">Afinación y Mantenimiento</option>
+      <option>Frenos y control de tracción</option>
+      <option></option>
+      <option></option>
+      <option></option>
+
+      <br><br>
+   </select>
+      <input type="text" name="desc" placeholder="Descripción del Producto" required>
+      <br><br>
+      <input type="text" name="stock" placeholder="Stock" required>
+      <br><br>
+      <input type="text" name="precio" placeholder="Precio" required>
+      <br><br>
+      <input type="file" name="imagen" placeholder="Imagen" required style="left: 10%;">
+<br>
+      <input type="submit" name="guardar" value="Guardar"> 
+
+
+
+
+
+
+    </form>
+  </div>
+  </body>
+  <!--<Script>
+  function Registro() {
+    
+  location.href='login.html';
+  }
+  </Script>-->
+</html>

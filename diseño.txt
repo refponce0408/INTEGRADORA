@@ -1,0 +1,20 @@
+﻿* Manejo de bootstrap
+*
+
+* Uso de plugins (Datatables)
+* 
+
+*Manejo de Puglins para la implementación de diseño
+*
+
+ *Uso de JQuery
+*
+
+ *Registro de Productos
+*
+
+ *Falta Carrito de Compras
+* 
+
+*Vista de Administración de Usuarios
+*
